@@ -1,0 +1,20 @@
+# ipynb cache
+**/*.ipynb_checkpoints/
+
+# data
+data/
+
+# models
+models/
+
+# complied files and visual studio files
+**/X64/
+**/X84/
+**/SBTimeSeries.vcxproj.user
+.vs/
+
+# figures
+figures/
+
+# python cache
+DeepHedging/__pycache__/

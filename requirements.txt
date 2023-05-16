@@ -1,0 +1,13 @@
+fbm==0.3.0
+matplotlib==3.7.0
+numpy==1.23.5
+pandas==1.5.3
+pandas_datareader==0.10.0
+pybind11==2.10.4
+scikit_learn==1.2.1
+scipy==1.10.0
+seaborn==0.12.2
+tensorflow==2.12.0
+tqdm==4.64.1
+yfinance==0.2.18
+pybind11==2.10.4
