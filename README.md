@@ -6,21 +6,20 @@ This repo is the official code for our paper *Generative Modeling for Time Serie
 
 ## Quickstart
 ### Python
-Create a conda environement and install python packages required for this project
+To get started, create a conda environment and install the required Python packages for this project using the following command:
 ```
 conda create -name SBTimeSeries --file requirements.txt python=3.8.16
 ```
 ### Build C++ Code
 #### Windows
-The code can be build by opening visual studio solution `SBTimeSeries.sln` and compile it.
+To build the code on Windows, open the Visual Studio solution `SBTimeSeries.sln` and compile it.
 #### Linux
-For linux users, you can build the solution by running the batch file `Build.sh`:
+For Linux users, you can build the solution by running the batch file `Build.sh` using the following command:
 ```
 bash Build.sh
 ```
-## Structure
-
-This repo is organized as follows:
-- `src` contains C++ code to diffuse SBTS.
-- `deepHedging` contains tensorflow model for deep hedging and its data generator.
-- `notebook` contains two Jupyter Notebooks files: `SBTSNumericalExperiments.ipynb` where you can reproduce all the numerical experiments displayed in the paper, and it generates samples stored in a folder `data` (created automatically) for deep hedging. `DeepHedging.ipynb` uses generated samples to run deep hedging as presented in the paper.
+## Repository Structure
+The repository is organized as follows:
+- `src` directory contains the C++ code for SBTS diffusion..
+- `deepHedging` directory contains the TensorFlow model for deep hedging and its data generator.
+- `notebook` contains two Jupyter Notebooks files: `SBTSNumericalExperiments.ipynb` which allows you to reproduce all the numerical experiments presented in the paper and generates samples stored in a folder named data (created automatically) for deep hedging. `DeepHedging.ipynb` uses the generated samples to run deep hedging as described in the paper.
